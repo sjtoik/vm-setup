@@ -1,9 +1,6 @@
 #!/bin/bash
-if [ "$(id -u)" == "0" ]; then
-	echo "This script must be run as regular user" 1>&2
-	exit 1
-fi
 
+# tmux config
 set -ex
 echo "set -g status-right '#[fg=yellow]#(uptime | cut -d "," -f -2)' 
 
@@ -16,3 +13,13 @@ set -g status-bg black
 set -g status-fg white
 set -g status-left '#[fg=green]#H'
 " >> ~/.tmux.conf 
+
+# git config
+git config --global user.email "586403+sjtoik@users.noreply.github.com"
+git config --global user.name "Santeri Toikka"
+git config --global push.default simple
+
+# vim config
+echo "set background=dark
+" >> ~/.vimrc
+

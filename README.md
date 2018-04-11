@@ -1,4 +1,4 @@
-# Setup preferred tooling
+# Setup prefered tooling
 Works with Debian netinstall and Kali.
 
 ```

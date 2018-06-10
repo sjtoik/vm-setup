@@ -1,4 +1,5 @@
 #!/bin/sh
+set -ex
 
 # keybase
 curl -O https://prerelease.keybase.io/keybase_amd64.deb

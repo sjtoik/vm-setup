@@ -1,5 +1,5 @@
 #!/bin/sh
-set -ex
+set -x
 
 # keybase
 sudo apt install -y curl

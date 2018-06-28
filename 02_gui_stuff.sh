@@ -2,7 +2,7 @@
 set -ex
 
 sudo apt update
-sudo apt install -y i3 suckless-tools chromium
+sudo apt install -y i3 suckless-tools chromium chromium-browser
 
 install -d ~/.config/i3
 cp ./i3.conf ~/.config/i3/config

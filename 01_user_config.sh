@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 sudo apt update
-sudo apt install -y vim tmux git
+sudo apt install -y vim tmux git openvpn python3 python3-pip
 
 # tmux config
 set -ex

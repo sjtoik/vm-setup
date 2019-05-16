@@ -2,6 +2,7 @@
 set -ex
 sudo apt update
 sudo apt install -y vim tmux git openvpn python3 python3-pip
+sudo apt autoremove -y
 
 # tmux config
 set -ex

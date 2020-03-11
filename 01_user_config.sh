@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 sudo apt update
-sudo apt install -y vim tmux git openvpn python3 python3-pip
+sudo apt install -y vim tmux git openvpn python3 python3-pip fish
 sudo apt autoremove -y
 
 # tmux config
@@ -16,6 +16,8 @@ bind-key C-a last-window
 set -g status-bg black
 set -g status-fg white
 set -g status-left '#[fg=green]#H'
+
+set-option -g default-shell '/usr/bin/fish'
 " >> ~/.tmux.conf 
 
 # git config

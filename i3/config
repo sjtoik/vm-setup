@@ -43,6 +43,9 @@ bindsym XF86AudioRaiseVolume "exec amixer -c 1 -q sset Master 3%+"
 
 bindsym $mod+Escape "exec ~/.config/i3/i3_lockoff.sh"
 
+# xrandr --output eDP-1-1 --mode 2880x1620 --output DP-0 --auto --above eDP-1-1
+# xrandr --output eDP-1-1 --mode 2880x1620 --output DP-0 --mode 3840x2160 --above eDP-1-1
+
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down

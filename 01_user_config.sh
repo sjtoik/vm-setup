@@ -4,18 +4,8 @@ sudo apt update
 sudo apt install -y vim tmux git openvpn python3 python3-pip 
 sudo apt autoremove -y
 
-# powerline for fish
+# fish
 sudo apt install -y fish
-pip3 install -y powerline-status
-
-wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
-wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
-install -d ~/.local/share/fonts/
-install -d ~/.config/fontconfig/conf.d/
-mv PowerlineSymbols.otf ~/.local/share/fonts/
-mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
-
-fc-cache -vf ~/.local/share/fonts/
 cp -r ./fish ~/.config/
 
 # tmux config

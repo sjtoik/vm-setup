@@ -1,10 +1,12 @@
-# Setup prefered tooling
-Works with Debian 10 (buster), Ubuntu 18.2 LTS and Kali.
+# Setup preferred tooling
+Personal choices. Tested in Ubuntu.
 
 ```
-# get root
-apt update 
-apt install -y git sudo
-usermod -a -G sudo $USERNAME && su - $USERNAME
-git clone git@github.com:sjtoik/vm-setup.git
+git clone https://github.com/sjtoik/vm-setup.git
+cd vm-setup
+sh 02_sway.sh
 ```
+
+Switched back to i3 as Sway/Wayland didn't support Nvidia enough to enable external display ports. 
+There are still problems in some combinations of power modes. 
+External display requires hard reboot before appearing in the xrandr output again.

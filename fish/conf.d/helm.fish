@@ -1,0 +1,2 @@
+set -gx HELM_EXPERIMENTAL_OCI 1
+

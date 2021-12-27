@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 sudo apt update
-sudo apt install -y vim tmux git openvpn python3 python3-pip 
+sudo apt install -y vim tmux git python3 python3-pip 
 sudo apt autoremove -y
 
 # fish
@@ -31,4 +31,5 @@ git config --global push.default simple
 
 # vim config
 echo "set background=dark
+syntax on
 " >> ~/.vimrc

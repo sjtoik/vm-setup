@@ -28,6 +28,7 @@ set-option -g default-shell '/usr/bin/fish'
 git config --global user.email "586403+sjtoik@users.noreply.github.com"
 git config --global user.name "Santeri Toikka"
 git config --global push.default simple
+git config --global init.defaultBranch main
 
 # vim config
 echo "set background=dark

@@ -4,7 +4,7 @@ Personal choices. Tested in Ubuntu.
 ```
 git clone https://github.com/sjtoik/vm-setup.git
 cd vm-setup
-sh 02_sway.sh
+sh 02_i3.sh
 ```
 
 Switched back to i3 as Sway/Wayland didn't support Nvidia enough to enable external display ports. 

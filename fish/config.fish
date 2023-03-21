@@ -1,5 +1,6 @@
-#set fish_function_path $fish_function_path "/usr/local/lib/python3.7/dist-packages/powerline/bindings/fish"
-#powerline-setup
-
-set -U fish_greeting
-set -U fish_user_paths ~/go/bin
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+    set -U fish_greeting
+    set -U fish_user_paths ~/go/bin
+    set -U fish_user_paths /opt/homebrew/bin/
+end
